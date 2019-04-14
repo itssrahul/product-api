@@ -8,6 +8,11 @@ This application has following REST end-points that product management.
 
 1. GET /product
 2. POST /product/publish
+
+##### Assumption
+
+A particular Model Number will always be assigned to a single Product Id
+
     
 #####  Basic Validations
 a. Max Length allowed for Product ID and Model no. is 6
