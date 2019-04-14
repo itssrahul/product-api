@@ -11,6 +11,7 @@ This application has following REST end-points that product management.
     
 #####  Basic Validations
 a. Max Length allowed for Product ID and Model no. is 6
+
 b. Product Metadata, Pricing, Product Description is mandatory in the payload
 
 ##### Sample Json Payload
