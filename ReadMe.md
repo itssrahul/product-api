@@ -43,6 +43,21 @@ b. Product Metadata, Pricing, Product Description is mandatory in the payload
 
 ```
 
+##### Sample Product Ids pre-populated in the DB on App start up
+```
+CG7088
+CG7089
+CG7079
+CG7019
+CG7029
+CG1029
+CG2029
+CG3029
+CG6729
+CG4029
+
+```
+
 
 ## Technologies used
 
