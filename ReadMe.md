@@ -8,6 +8,39 @@ This application has following REST end-points that product management.
 
 1. GET /product
 2. POST /product/publish
+    
+#####  Basic Validations
+a. Max Length allowed for Product ID and Model no. is 6
+b. Product Metadata, Pricing, Product Description is mandatory in the payload
+
+##### Sample Json Payload
+
+```
+{
+  "id": "CW7088",
+  "name": "Nite Jogger Shoes",
+  "model_number": "ATO93",
+  "product_type": "inline",
+  "meta_data": {
+    "page_title": "adidas Nite Jogger Shoes - Black | adidas UK",
+    "site_name": "adidas United Kingdom",
+    "description": "Shop for Nite Jogger Shoes - Black at adidas.co.uk! See all the styles and colours of Nite Jogger Shoes - Black at the official adidas UK online store.",
+    "keywords": "Nite Jogger Shoes",
+    "canonical": "//www.adidas.co.uk/nite-jogger-shoes/CG7088.html"
+  },
+  "pricing_information": {
+    "standard_price": 119.95,
+    "standard_price_no_vat": 99.96,
+    "currentPrice": 119.95
+  },
+  "product_description": {
+    "title": "Nite Jogger Shoes",
+    "subtitle": "Modern cushioning updates this flashy '80s standout.",
+    "text": "Inspired by the 1980 Nite Jogger, these shoes shine bright with retro style and reflective details. The mesh and nylon ripstop upper is detailed with suede overlays. An updated Boost midsole adds responsive cushioning for all-day comfort."
+  }
+} 
+
+```
 
 
 ## Technologies used
